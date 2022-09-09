@@ -28,3 +28,7 @@ main {
   width: 95%;
   margin: 0 auto;
 }
+
+section {
+  padding-bottom: 3rem;
+}

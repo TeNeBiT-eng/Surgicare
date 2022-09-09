@@ -1,0 +1,14 @@
+.service_image-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service_image {
+    display: flex;
+    justify-content: center;
+}
+
+.service_text {
+    text-align: center;
+}

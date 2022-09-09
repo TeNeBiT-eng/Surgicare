@@ -1,0 +1,28 @@
+.section3 {
+    background: #852C241A;
+}
+
+.service_container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 4rem;
+    padding-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .service_container {
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media (max-width: 500px) {
+    .service_container {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media (max-width: 425px) {
+    .service_container {
+        grid-template-columns: auto;
+    }
+}
