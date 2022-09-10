@@ -12,7 +12,7 @@ import Care from "../../Assets/svgs/medicalCare.svg";
 
 const Service = () => {
   return (
-    <section className="section3">
+    <section className="section3" id="services">
       <main>
         <h3>Our Services</h3>
 

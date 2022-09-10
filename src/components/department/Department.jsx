@@ -4,7 +4,7 @@ import Dept from "../../Assets/svgs/departmentSvg.svg";
 
 const Department = () => {
   return (
-    <section className="section2">
+    <section className="section2" id="departments">
       <main>
         <h3>Our Departments</h3>
 

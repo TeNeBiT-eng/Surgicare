@@ -4,7 +4,7 @@ import aboutImage from "../../Assets/images/maskedHospital.png";
 
 const About = () => {
   return (
-    <section className="section1">
+    <section className="section1" id="aboutus">
       <main>
         <h3>About Us</h3>
 
