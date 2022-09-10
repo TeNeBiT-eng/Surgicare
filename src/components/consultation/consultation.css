@@ -1,0 +1,72 @@
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+    padding-right: 10%;
+}
+
+.form-group {
+    display: block;
+    width: 50%;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    color: rgba(33, 43, 81, 1);
+}
+
+.form-group > div input {
+    padding: 1rem 3rem 1rem 0.4rem;
+    background-color: rgba(33, 43, 81, 0.04);
+    border: 1px solid rgba(33, 43, 81, 1);
+    border-radius: 5px;
+}
+.form-group > div input:focus {
+    border: 2px solid rgba(33, 43, 81, 1);
+}
+
+.input-group {
+    width: 150%;
+    padding-top: .8rem;
+}
+
+.input-group input {
+    width: 100%;
+}
+
+.btn-submit {
+    margin-top: 1rem;
+    margin-left: 125%;
+}
+
+.btn-submit button {
+    cursor: pointer;
+    padding: 1rem 3rem;
+    color: white;
+    background-color: rgba(33, 43, 81, 1);
+    border: none;
+    border-radius: 5px;
+    transition: all .4s ease;
+}
+
+.btn-submit button:hover {
+    color: rgba(33, 43, 81, 1);
+    background-color: transparent;
+    border: 1px solid rgba(33, 43, 81, 1);
+}
+
+@media (max-width: 767px) {
+    form {
+        grid-template-columns: auto;
+        place-items: unset;
+    }
+
+    .form-group {
+        width: 74%;
+    }
+
+    .btn-submit {
+        text-align: center;
+        margin-left: unset;
+    }
+}

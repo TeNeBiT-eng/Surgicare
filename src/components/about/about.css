@@ -27,9 +27,6 @@ h3 {
     flex-direction: column;
     gap: 1rem;
   }
-  .about_text p {
-    text-align: center;
-  }
 
   .container_about-image img {
     width: 100%;

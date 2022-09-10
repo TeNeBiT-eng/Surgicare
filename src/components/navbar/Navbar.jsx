@@ -17,7 +17,7 @@ const Navbar = () => {
           <a href="#aboutus">About us</a>
           <a href="#departments">Department</a>
           <a href="#services">Services</a>
-          <a href="#faq">FAQ</a>
+          {/* <a href="#faq">FAQ</a> */}
           <a href="#consultation">Consultation</a>
         </div>
         <div
