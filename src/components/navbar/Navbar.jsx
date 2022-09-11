@@ -18,7 +18,7 @@ const Navbar = () => {
           <a href="#departments">Department</a>
           <a href="#services">Services</a>
           {/* <a href="#faq">FAQ</a> */}
-          <a href="#consultation">Consultation</a>
+          <a href="#consultation" className="btn-consult"><button>See the Doctor</button></a>
         </div>
         <div
           className={`nav-toggle ${isOpen && "open"}`}

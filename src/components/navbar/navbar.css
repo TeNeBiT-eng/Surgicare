@@ -36,8 +36,33 @@ a:hover::before {
   width: 100%;
 }
 
+.btn-consult::before {
+  display: none;
+}
+
 .nav-toggle {
   display: none;
+}
+
+.navItems button {
+  padding: .8rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #212b51;
+  transition: all .4s ease;
+}
+
+.navItems button:hover {
+  background-color: transparent;
+  border: 1px solid #212b51;
+}
+
+.navItems a button:hover {
+  color: #212b51 !important;
+}
+
+.navItems a button {
+  color: white;
 }
 
 @media (max-width: 768px) {

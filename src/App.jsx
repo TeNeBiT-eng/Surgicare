@@ -5,6 +5,7 @@ import Department from "./components/department/Department";
 import Service from "./components/services/Service";
 import Faq from "./components/faq/Faq";
 import Consultation from "./components/consultation/Consultation";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Service />
       {/* <Faq /> */}
       <Consultation />
+      <Footer />
     </>
   );
 }
