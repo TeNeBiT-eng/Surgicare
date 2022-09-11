@@ -6,6 +6,10 @@
   padding: 2.5rem 0;
 }
 
+.logoContainer {
+  cursor: pointer;
+}
+
 a {
   color: #212b51;
   margin: 15px;
