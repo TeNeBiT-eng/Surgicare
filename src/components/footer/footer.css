@@ -1,0 +1,204 @@
+.footerText {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.footerText p {
+  font-size: 1.25rem;
+  color: rgba(33, 43, 81, 1);
+}
+
+footer .social-media {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  gap: 100px;
+}
+
+.social-media li {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.social-media li:nth-child(1) {
+  -webkit-text-stroke: 2px #3b5998;
+}
+
+.social-media li:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  transition: 0.4s ease-in-out;
+  font-family: fontAwesome;
+  text-align: center;
+  line-height: 120px;
+  font-size: 6em;
+  color: #3b5998;
+  overflow: hidden;
+  border-bottom: 4px solid #3b5998;
+}
+
+.social-media li:nth-child(2) {
+  -webkit-text-stroke: 2px #25d366;
+}
+
+.social-media li:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  transition: 0.4s ease-in-out;
+  font-family: fontAwesome;
+  text-align: center;
+  line-height: 120px;
+  font-size: 6em;
+  color: #25d366;
+  overflow: hidden;
+  border-bottom: 4px solid #25d366;
+}
+
+.social-media li:nth-child(3) {
+  -webkit-text-stroke: 2px #dd2a7b;
+}
+
+.social-media li:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  transition: 0.4s ease-in-out;
+  font-family: fontAwesome;
+  text-align: center;
+  line-height: 120px;
+  font-size: 6em;
+  color: #dd2a7b;
+  overflow: hidden;
+  border-bottom: 4px solid #dd2a7b;
+}
+
+.social-media li:nth-child(4) {
+  -webkit-text-stroke: 2px #00aced;
+}
+
+.social-media li:nth-child(4)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  transition: 0.4s ease-in-out;
+  font-family: fontAwesome;
+  text-align: center;
+  line-height: 120px;
+  font-size: 6em;
+  color: #00aced;
+  overflow: hidden;
+  border-bottom: 4px solid #00aced;
+}
+
+.social-media li .fa-brands {
+  font-size: 6em;
+  color: transparent;
+}
+
+.social-media li:hover::before {
+  height: 100%;
+}
+
+.social-media li:nth-child(1)::before {
+  content: "\f09a";
+}
+.social-media li:nth-child(2)::before {
+  content: "\f232";
+}
+.social-media li:nth-child(3)::before {
+  content: "\f16d";
+}
+.social-media li:nth-child(4)::before {
+  content: "\f099";
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 5rem auto;
+}
+
+.footerLink p {
+  color: rgba(33, 43, 81, 1);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.footerLink ul li {
+  padding: 1rem 0;
+}
+
+.copyright ul {
+  border-top: 1px solid rgba(33, 43, 81, 1);
+  width: 90%;
+  margin: auto;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright ul li {
+  color: rgba(33, 43, 81, 1);
+}
+
+.builder {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  footer .social-media {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .surgicarelogo {
+    margin-bottom: 3rem;
+  }
+
+  .footerLinks {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .footerLink {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  footer .social-media {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .copyright ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .copyright ul li {
+    padding: 1rem 0;
+  }
+}

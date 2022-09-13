@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import Logo from "../../Assets/svgs/surgicareLogo.svg";
-// import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +16,6 @@ const Navbar = () => {
           <a href="#aboutus">About us</a>
           <a href="#departments">Department</a>
           <a href="#services">Services</a>
-          {/* <a href="#faq">FAQ</a> */}
           <a href="#consultation" className="btn-consult"><button>See the Doctor</button></a>
         </div>
         <div

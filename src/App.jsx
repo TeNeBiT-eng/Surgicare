@@ -22,12 +22,3 @@ function App() {
 }
 
 export default App;
-
-// {/* <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/aboutus" element={<About />} />
-//         <Route path="/departments" element={<Department />} />
-//         <Route path="/services" element={<Service />} />
-//         <Route path="/faq" element={<Faq />} />
-//         <Route path="/consultation" element={<Consultation />} />
-//       </Routes> */}
