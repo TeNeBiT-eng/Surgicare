@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5399ccb6.css",
+    "main.js": "/static/js/main.5061be6f.js",
+    "static/js/787.7ed098e8.chunk.js": "/static/js/787.7ed098e8.chunk.js",
+    "static/media/hospital.png": "/static/media/hospital.65fd78e595dbba94e012.png",
+    "static/media/surgicareLogo.svg": "/static/media/surgicareLogo.73fd3fd5c9f830c38105bcc4ccea3385.svg",
+    "static/media/maskedHospital.png": "/static/media/maskedHospital.cb78d17ca81282e83adb.png",
+    "static/media/drugPills.svg": "/static/media/drugPills.cb28e236f6fef870690bda2335021dbe.svg",
+    "static/media/medicalCare.svg": "/static/media/medicalCare.8cc94cd5cda501f0fa7f4fabf756a2f8.svg",
+    "static/media/surgeon.svg": "/static/media/surgeon.56bbf18b96b95882d14db8c880b5eab4.svg",
+    "static/media/medicalPersonnel.svg": "/static/media/medicalPersonnel.336ef88cd916f720cd9b43b5f94df6c7.svg",
+    "static/media/ambulance.svg": "/static/media/ambulance.f981e042e7fd4c2a801db3886a566607.svg",
+    "static/media/medical-advice.svg": "/static/media/medical-advice.c7a5d6ec449bd80a0b7c50695b02ebb8.svg",
+    "static/media/laboratoryIcon.svg": "/static/media/laboratoryIcon.4e8a0d8ba6cbae25233634d4a4917605.svg",
+    "static/media/pharmacymedicine.svg": "/static/media/pharmacymedicine.58be49f664d3ea3ff10d5809db1dcfeb.svg",
+    "index.html": "/index.html",
+    "static/media/departmentSvg.svg": "/static/media/departmentSvg.53e2b3fb8fec092f07ca38e670e205e9.svg",
+    "main.5399ccb6.css.map": "/static/css/main.5399ccb6.css.map",
+    "main.5061be6f.js.map": "/static/js/main.5061be6f.js.map",
+    "787.7ed098e8.chunk.js.map": "/static/js/787.7ed098e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5399ccb6.css",
+    "static/js/main.5061be6f.js"
+  ]
+}
