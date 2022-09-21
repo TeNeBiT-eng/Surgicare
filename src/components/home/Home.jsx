@@ -7,7 +7,13 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="container">
+      
+    </>
+  );
+};
+
+export default Home;
+<div className="container">
         <img src={Hospital} alt="hospital environment" className="hospitalImage" />
       {/* <img src={Hospital} alt="Avatar" className="image"> */}
         <div className="overlay">
@@ -19,8 +25,3 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </>
-  );
-};
-
-export default Home;

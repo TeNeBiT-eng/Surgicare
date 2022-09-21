@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5399ccb6.css",
-    "main.js": "/static/js/main.5061be6f.js",
+    "main.js": "/static/js/main.ee4bb412.js",
     "static/js/787.7ed098e8.chunk.js": "/static/js/787.7ed098e8.chunk.js",
     "static/media/hospital.png": "/static/media/hospital.65fd78e595dbba94e012.png",
     "static/media/surgicareLogo.svg": "/static/media/surgicareLogo.73fd3fd5c9f830c38105bcc4ccea3385.svg",
@@ -17,11 +17,11 @@
     "index.html": "/index.html",
     "static/media/departmentSvg.svg": "/static/media/departmentSvg.53e2b3fb8fec092f07ca38e670e205e9.svg",
     "main.5399ccb6.css.map": "/static/css/main.5399ccb6.css.map",
-    "main.5061be6f.js.map": "/static/js/main.5061be6f.js.map",
+    "main.ee4bb412.js.map": "/static/js/main.ee4bb412.js.map",
     "787.7ed098e8.chunk.js.map": "/static/js/787.7ed098e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5399ccb6.css",
-    "static/js/main.5061be6f.js"
+    "static/js/main.ee4bb412.js"
   ]
 }
