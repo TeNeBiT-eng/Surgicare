@@ -30,11 +30,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-// {/* <Link to="/">Home</Link>
-//           <Link to="/aboutus">About us</Link>
-//           <Link to="/departments">Department</Link>
-//           <Link to="/services">Services</Link>
-//           <Link to="/faq">FAQ</Link>
-//           <Link to="/consultation">Consultation</Link> */}
