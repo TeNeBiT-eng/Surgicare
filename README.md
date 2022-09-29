@@ -1,5 +1,5 @@
 # Surgicare
-<p><b>LIVE DEMO</b>: <a>https://surgicare.netlify.app/</a></p>
+<b>LIVE DEMO</b>: <a>https://surgicare.netlify.app/</a>
 
 # Getting Started with Create React App
 
