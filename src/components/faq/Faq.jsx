@@ -68,8 +68,7 @@ const Faq = () => {
 
     {
       question: "What is the visiting policy at Surgicare Consult Hospital ?",
-      answer:
-        "Visitors can come visiting, but if we want to attend to the patient, visitors have to leave. If it is a new born baby, there are no visits",
+      answer: "Visitors can come visiting, but if we want to attend to the patient, visitors have to leave. If it is a new born baby, there are no visits",
       open: false,
     },
 
