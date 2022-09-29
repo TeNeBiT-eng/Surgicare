@@ -23,8 +23,7 @@ const Faq = () => {
     },
 
     {
-      question:
-        "Does the hospital take in referral cases from other hospitals ?",
+      question: "Does the hospital take in referral cases from other hospitals ?",
       answer: "Yes",
       open: false,
     },
@@ -50,22 +49,19 @@ const Faq = () => {
       open: false,
     },
     {
-      question:
-        "Can i recieve prescription for medication on the Surgicare Consult Hospital website ?",
+      question: "Can i recieve prescription for medication on the Surgicare Consult Hospital website ?",
       answer: "No, we don't prescribe drugs from distance",
       open: false,
     },
 
     {
-      question:
-        "Can i pay my bills at Surgicare Consult Hospital installmentally ? ",
+      question: "Can i pay my bills at Surgicare Consult Hospital installmentally ? ",
       answer: "Yes, If it is an emergency",
       open: false,
     },
 
     {
-      question:
-        "What method of payment is accepted at Surgicare Consult Hospital ?",
+      question: "What method of payment is accepted at Surgicare Consult Hospital ?",
       answer: "Bank transfer, POS and cash",
       open: false,
     },
@@ -93,7 +89,7 @@ const Faq = () => {
           faq.open = false;
         }
 
-        return faq();
+        return faq;
       })
     );
   };
