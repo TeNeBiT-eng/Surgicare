@@ -66,11 +66,6 @@ const Footer = () => {
           <li>Privacy Policy</li>
         </ul>
       </div>
-
-      <div className="builder">
-        Built by Ghap
-        <p>+2347054779293</p>
-      </div>
     </footer>
   );
 };
