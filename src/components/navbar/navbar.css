@@ -77,7 +77,8 @@ a:hover::before {
     background: rgba(112, 14, 14, 0.7);
     backdrop-filter: blur(2px);
     transform: translateX(-1000%);
-    transition: all 0.45s ease;
+    -webkit-transition: all 1.3s cubic-bezier(0.3, 0.46, 0.61, 1);
+transition: all 1.3s cubic-bezier(0.3, 0.46, 0.61, 1);
     z-index: 1;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
       rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
