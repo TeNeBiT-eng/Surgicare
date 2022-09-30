@@ -30,7 +30,7 @@ const Faq = () => {
 
     {
       question: "List of all the surgeries done at Surgicare Consult Hospital",
-      answer: "",
+      answer: "We do all type of surgeries except for the surgery of the brain and heart",
       open: false,
     },
     // {

@@ -20,3 +20,20 @@ function FAQDATA({faq, index, toggleFAQ}) {
 }
 
 export default FAQDATA;
+
+// {/* <div className="faq-answer">
+//         {typeof(faq.answer) == "string" ? faq.answer : 
+//         <>
+//          {
+//           faq.answer.map((answer, i)=>{
+//             return(
+//             <li>
+//               {i+1 + ". " +answer.listAnswer}
+//             </li>
+//             )
+//           })
+//        }
+//         </>
+      
+//         }
+//       </div> */}
